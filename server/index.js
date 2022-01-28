@@ -14,6 +14,7 @@ app.use(cors());
 
 app.use('/posts', postRoutes)
 
+// for the deployment
 app.get('/', (req, res) => {
     res.send('Hello to Memory API')
 })
